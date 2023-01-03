@@ -32,6 +32,10 @@ inserir as chaves para autenticação
 
 # instalar dependências
 npm install
+npm install --save-dev hardhat@2.9.9
+npx hardhat
+npm install --save-dev @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers
+npm install @openzeppelin/contracts
 
 # fazer deploy do contrato na rede de testes Goerli
 npx hardhat run scripts/deploy.js --network goerli
